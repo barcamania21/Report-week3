@@ -10,7 +10,7 @@ public class Account{
 
     public Account(String accountNumber){
         if (accountNumber == null){
-            throw new NullPointerException("accountNumber is null")
+            throw new NullPointerException("accountNumber is null");
         }
         this.accountNumber = accountNumber;
     }
