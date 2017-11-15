@@ -34,7 +34,7 @@ public class Account{
     private Transaction makeTransactionFromDbRow(DbRow row){
         double currencyAmountInPounds = Double.parseDouble(row.getValueForField("amt"));
         String description = row.getValueForField("desc");
-        return new Transaction(description, currencyAmountInPounds); // return the new Transaction object
+        return new Transaction(description, currencyAmountInPounds); 
     }
 
 
